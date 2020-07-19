@@ -12,25 +12,105 @@
      font-style: italic;
      font-size: 40px
    }
+
    img{
      display: block;
      margin: 0 auto 0 auto;
    }
+
    p{
      color:red;
      font-style: italic;
    }
+
    P1{
      color:green;
      font-style: italic;
    }
+
+   .dropbtn {
+     background-color: #008080;
+     color: white;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+     cursor: pointer;
+   }
+
+   .dropdown {
+  position: relative;
+  display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a: hover {background-color: #f1f1f1}
+
+  .dropdown:hover .dropdown-conent{
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn{
+    background-color: #3e8e41;
+  }
+
    </style>
    <body>
-     <ul>
-       <li><a href="Home">Home</a></li>
+     <title>navigation Menu</title>
+    <link rel="stylesheet" href="//code.jquery.com/mobile/1.5.0-alpha.1/jquery.moblie-1.5.0-alpha.1.min.css">
+    <script src="//code.jquery.com/jquery-3.2.1.min_.js"></script>
+    <script src="//code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
+
+</head>
+<!--
+    <div data-role="page" id="page1">
+      <div data-role="header">
+        <h2>Point Park Place</h2>
+      </div>
+      <div data-role="main" class="ui-content">
+        <p>welcome to the site</p>
+      </div>
+      -->
+  <div data-role="page" id="page1">
+   <div data-role="header"></div>
+    <div data-role="main" class="ui-content">
+    </div>
+      <div data-role="footer">
+        <div data-role="navbar">
+   <ul>
+       <li><a href="#Home" class="ui-btn-active">Home</a></li>
        <li><a href="About Me">About Me</a></li>
        <li><a href="Resume">Resume</a></li>
+       <li><a href="Photos">Photos</a></li>
      </ul>
+   </div> <!--navbar-->
+ </div> <!--footer-->
+ <div> <!--page-->
+
+   <div About me="dropdown">
+     <button About me="dropbtn">dropdown</button>
+      <div About me="dropdown-content">
+       <a href="a">Hoobies</a>
+       <a href="a">Work Exerience</a>
+       <a href="a">Travel</a>
+    </div>
+  </div>
+
+
      <h1> A little to know about me</h1>
      <img src="Images/Raegan.jpeg" alt="Raegan Talbot" style="width:300px;height:300px">
      <div style="background-color:lightblue">
@@ -66,5 +146,5 @@
 
 
      </body>
-     </head>
+    <!-- </head> -->
 </html>
