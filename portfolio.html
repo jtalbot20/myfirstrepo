@@ -1,82 +1,59 @@
 <html>
 <title>Portfolio</title>
  <head>
-   <!--I have used a separate css file for all my projects so far so maybe it's different
-   and I just don't remember but why do you have all those different p, p1, p2, and p3 styles?
-   You use most of them in your paragraph below but you have them all formatted the same anyway.
-   I think it would be easier and work the same to just use one <p></p> for the whole paragraph
-   below and just have this one style for all paragraphs:
-   p{
-      color:black;
-      font-style: italic;
-    }
-
-    I didn't want to actually make those changes as I would need to remove a lot of your style <section>
-      to make it work.
-    </section>
-      -->
   <style>
 
+  .border {
+  border-style:solid;
+  border-color:#656578;
+  border-width: 1px;
+  padding: 3px;
+  background-color: #54566b;
+ }
  h1{
     color: black;
     text-align: center;
     font-style: italic;
     font-size: 40px
   }
-
  p{
     color:black;
     font-style: italic;
+    background-color: pink;
   }
-
- p1{
-      color:black;
-      font-style: italic;
-    }
-
- p2{
-     color:black;
-      font-style: italic;
-    }
-
- p3{
-     color:black;
-      font-style: italic;
-    }
+div.padding {
+  padding: 120px;
+}
 
 </style>
 </head>
 
 <body>
 
-<!--  Cute baby, btw.  Your first picture is sized to be bigger than the other two and
-the way it shows on the page made me think the vertical list was something I could click on.
-You might want to make all the images the same size or put a frame around that first one or something.
-I made the following changes if you want to activate and use any of them.  I added a little padding
-to your header so it wasn't right at the top of the page.  I also made all the pictures the
-same size and centered them.  I would do add a border and separate them too but since you're not
-using a css file and it won't let me comment out stuff in your style section, I'm going to leave that out.
-<h1 style=padding-top:20px;> Portfolio </h1>
-<div><center>
-<img src="Images/about me.jpg" alt="About Me" style="width:300px;height:300px">
-<img src="Images/array list.jpg" alt="array" style="width:300px;height:300px">
-<img src="Images/javascript math.jpg" alt="javascript" style="width:300px;height:300px">
-</div></center>
--->
-  <h1> Portfolio </h1>
-  <img src="Images/about me.jpg" alt="About Me" style="width:500px;height:500px">
-  <img src="Images/array list.jpg" alt="array" style="height:300px">
-  <img src="Images/javascript math.jpg" alt="javascript" style="height:300px">
-  <div style="background-color:pink">
+    <h1 style=padding-top:20px;> Portfolio </h1>
+    <div><center>
+    <img src="Images/about me.jpg" class="border"; alt="About Me" style="width:300px;height:300px">
+    <img src="Images/array list.jpg" class="border"; alt="array" style="width:300px;height:300px">
+    <img src="Images/javascript math.jpg" class="border"; alt="javascript" style="width:300px;height:300px">
+  </div></center>
 
- <p1> A couple of the photos above are screen shots that I have created.
-      The frist picture is something I created in HTML code. The second and
-      third picture are things i solved in javascript.</p1>
- <p2> So there are a couple things that i have done at work with C++</p2>
- <p3> I got to create a GUI interface for automatically picking differnt models
-      in a program called Pro Engineer. With in Pro Engineer there is program
-      called Smart Assembly. That is where you place the C++ code so that thead
-      GUI interface can pop. </p3>
+    <div class=padding>
+<!--
+    <img src="Images/about me.jpg" alt="About Me" style="width:500px;height:500px">
+    <img src="Images/array list.jpg" alt="array" style="height:300px">
+    <img src="Images/javascript math.jpg" alt="javascript" style="height:300px">
+    <div style="background-color:pink">
+-->
+ <p class=text> A couple of the photos above are screen shots that I have created.<br><br>
+      The first picture is something I created in HTML code. The second and
+      third pictures are things I solved in JavaScript.
+      <br><br>There are a couple things that i have done at work with C++
+      I got to create a GUI interface for automatically picking differnt models
+      in a program called Pro Engineer. Within Pro Engineer, there is program
+      called Smart Assembly. That is where you place the C++ code so the
+      GUI interface can pop.
+    </div>
 </body>
 
 </html>
+
