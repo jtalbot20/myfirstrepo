@@ -1,6 +1,20 @@
 <html>
 <title>Portfolio</title>
  <head>
+   <!--I have used a separate css file for all my projects so far so maybe it's different
+   and I just don't remember but why do you have all those different p, p1, p2, and p3 styles?
+   You use most of them in your paragraph below but you have them all formatted the same anyway.
+   I think it would be easier and work the same to just use one <p></p> for the whole paragraph
+   below and just have this one style for all paragraphs:
+   p{
+      color:black;
+      font-style: italic;
+    }
+
+    I didn't want to actually make those changes as I would need to remove a lot of your style <section>
+      to make it work.
+    </section>
+      -->
   <style>
 
  h1{
@@ -35,6 +49,20 @@
 
 <body>
 
+<!--  Cute baby, btw.  Your first picture is sized to be bigger than the other two and
+the way it shows on the page made me think the vertical list was something I could click on.
+You might want to make all the images the same size or put a frame around that first one or something.
+I made the following changes if you want to activate and use any of them.  I added a little padding
+to your header so it wasn't right at the top of the page.  I also made all the pictures the
+same size and centered them.  I would do add a border and separate them too but since you're not
+using a css file and it won't let me comment out stuff in your style section, I'm going to leave that out.
+<h1 style=padding-top:20px;> Portfolio </h1>
+<div><center>
+<img src="Images/about me.jpg" alt="About Me" style="width:300px;height:300px">
+<img src="Images/array list.jpg" alt="array" style="width:300px;height:300px">
+<img src="Images/javascript math.jpg" alt="javascript" style="width:300px;height:300px">
+</div></center>
+-->
   <h1> Portfolio </h1>
   <img src="Images/about me.jpg" alt="About Me" style="width:500px;height:500px">
   <img src="Images/array list.jpg" alt="array" style="height:300px">
@@ -49,7 +77,6 @@
       in a program called Pro Engineer. With in Pro Engineer there is program
       called Smart Assembly. That is where you place the C++ code so that thead
       GUI interface can pop. </p3>
-
 </body>
 
 </html>
