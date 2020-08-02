@@ -1,9 +1,9 @@
 <html>
   <head>
-	<title>API'S</title>
+	<title>Page1</title>
 
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-  <script src="jquery-3.5.1.min.js"></script>
+  
     </head>
 
 <body>
@@ -19,11 +19,7 @@
   .catch(err =>{
      //if error say wrong
   })
-
-
-
-
-  </body>
+</body>
 
 
 
