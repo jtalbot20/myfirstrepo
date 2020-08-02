@@ -1,0 +1,17 @@
+var url = 'https://api.nytimes.com/svc/movies/v2/reviews/search.json?query=concussion&api-key=qVmyopFU6XS7J3aiWKSGJpMkoItQBsC1'
+
+function setup() {
+ noCanvas();
+ loadJSON(url, getdata);
+}
+
+function getdata(data) {
+ var articles = data.results;
+
+ //loop to get everything
+ for (var i = 0; i < articles.length; i++){
+ createElement('h1', articles[i].headline);
+ createP(articles[i].summary_short);
+ createP(articles[i].mpaa_rating);
+ }
+}

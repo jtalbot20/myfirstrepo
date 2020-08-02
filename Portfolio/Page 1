@@ -1,0 +1,31 @@
+<html>
+  <head>
+	<title>API'S</title>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="jquery-3.5.1.min.js"></script>
+    </head>
+
+<body>
+ fetch('https://api.nytimes.com/svc/movies/v2/reviews/search.json?query=concussion&api-key=qVmyopFU6XS7J3aiWKSGJpMkoItQBsC1')
+  .then(results => {
+    return results.json()
+  })
+  .then(data => {
+    console.log(data.results[0].headline)
+    console.log(data.results[0].summary_short)
+  })
+
+  .catch(err =>{
+     //if error say wrong
+  })
+
+
+
+
+  </body>
+
+
+
+
+</html>

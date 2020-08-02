@@ -1,0 +1,28 @@
+<html>
+  <head>
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script src="jquery-3.5.1.min.js"></script>
+    </head>
+  <body>
+    <div class=header>
+    <img src="Logo.jpg" alt="Logo" width="200" height="50">
+    </div>
+
+  <div class=nav1>
+    <ul>
+		    <a href="AboutMe.html">About Me</a>
+  	     <a href="ContactInfo.html">Contact Information</a>
+	        <a href="Resume.html">Resume</a>
+	       </ul>
+  </div>
+
+
+
+
+  </body>
+
+
+
+
+</html>
