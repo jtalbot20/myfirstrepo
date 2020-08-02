@@ -3,10 +3,11 @@
 	<title>Page1</title>
 
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-  
+
     </head>
 
 <body>
+  <div>
  fetch('https://api.nytimes.com/svc/movies/v2/reviews/search.json?query=concussion&api-key=qVmyopFU6XS7J3aiWKSGJpMkoItQBsC1')
   .then(results => {
     return results.json()
@@ -19,6 +20,7 @@
   .catch(err =>{
      //if error say wrong
   })
+</div>
 </body>
 
 
