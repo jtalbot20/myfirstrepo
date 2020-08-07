@@ -6,3 +6,5 @@ Sell Your Boat, Ready to sell your boat? Listing on Boat Trader gives you maximu
 ## There is an app and its available on IOS & Android
 -The current version was developed on IOS & Android framework
 
+## What are the programming languages used to create this site
+- HTML, jQuery, CSS & etc
