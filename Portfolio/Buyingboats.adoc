@@ -22,6 +22,7 @@ Sell Your Boat, Ready to sell your boat? Listing on Boat Trader gives you maximu
 ## Application details for App
 
 [grid="rows",format="csv"]
+
 |======================================
 App,Location,Envirement,URL,Status,Boat,Length,Year
 '{BOATTRADER_APP}','{BOATTRADER_lOC}','{BOATTRADER_ENV}','{BOATTRADER_URL}','{BOATTRADER_BRAND}','{BOATTRADER_SIZE}','{BOATTRADER_YEAR}'
