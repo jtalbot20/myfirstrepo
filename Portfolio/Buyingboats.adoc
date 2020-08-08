@@ -1,5 +1,15 @@
 # Buying and Selling a Boat off of Boat Trader
 
+:BOATTRADER_APP: Boat Trader
+:BOATTRADER_loc: Pittsburgh
+:BOATTRADER_ENV: Staging 
+:BOATTRADER_URL: https://www.boattrader.com/
+:BOATTRADER_BRAND: What kind of boat
+:BOATTRADER_SIZE: Length of boat
+:BOATTRADER_YEAR: Year of boat
+
+:imagesdir: images
+
 ## Buying a boat off Boat Trader
 Sell Your Boat, Ready to sell your boat? Listing on Boat Trader gives you maximum exposure with minimal hassle. Also find boats for sale
 
@@ -8,3 +18,10 @@ Sell Your Boat, Ready to sell your boat? Listing on Boat Trader gives you maximu
 
 ## What are the programming languages used to create this site
 - HTML, jQuery, CSS & etc
+
+
+[grid="rows",format="csv"]
+[options="header",cols="^,<,<s,<,>m"]
+|=======================
+App,Location,Envirement,URL,Status,Boat,Length,year
+'{BOATTRADER_APP}'
