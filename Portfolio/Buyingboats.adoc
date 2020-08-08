@@ -9,8 +9,8 @@
 :BOATTRADER_YEAR: Year of boat
 :imagesdir: images
 
-+
-:image:: 
+
+:images::boattrader.JPG[alt=logo,width=250px][orientation=portrait]
 
 ## Buying a boat off Boat Trader
 Sell Your Boat, Ready to sell your boat? Listing on Boat Trader gives you maximum exposure with minimal hassle. Also find boats for sale
