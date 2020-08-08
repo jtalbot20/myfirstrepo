@@ -19,6 +19,7 @@ Sell Your Boat, Ready to sell your boat? Listing on Boat Trader gives you maximu
 ## What are the programming languages used to create this site
 - HTML, jQuery, CSS & etc
 
+## Application details for App
 
 [grid="rows",format="csv"]
 [options="header",cols="^,<,<s,<,>m"]
