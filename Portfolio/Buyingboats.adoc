@@ -7,8 +7,10 @@
 :BOATTRADER_BRAND: What kind of boat
 :BOATTRADER_SIZE: Length of boat
 :BOATTRADER_YEAR: Year of boat
-
 :imagesdir: images
+
++
+:image:: 
 
 ## Buying a boat off Boat Trader
 Sell Your Boat, Ready to sell your boat? Listing on Boat Trader gives you maximum exposure with minimal hassle. Also find boats for sale
@@ -21,9 +23,10 @@ Sell Your Boat, Ready to sell your boat? Listing on Boat Trader gives you maximu
 
 ## Application details for App
 
+
 [grid="rows",format="csv"]
 
-|======================================
+|======================
 App,Location,Envirement,URL,Status,Boat,Length,Year
-'{BOATTRADER_APP}','{BOATTRADER_lOC}','{BOATTRADER_ENV}','{BOATTRADER_URL}','{BOATTRADER_BRAND}','{BOATTRADER_SIZE}','{BOATTRADER_YEAR}'
-|======================================
+'{BOATTRADER_APP}','{BOATTRADER_loc}','{BOATTRADER_ENV}','{BOATTRADER_URL}','{BOATTRADER_BRAND}','{BOATTRADER_SIZE}','{BOATTRADER_YEAR}'
+|======================
