@@ -33,8 +33,10 @@ App,Location,Envirement,URL,Status,Boat,Length,Year
 
 ## GitHub Branch Strategy
 - This is the route that needs taken to upload to GitHub
+
 image::Branch.JPG[alt=logo,width=350px][orientation=portrait]
 
 ## Implementation Strategy
 -This is the route that needs taken from FileZilla to the Internet 
+
 image::Implementation.JPG[alt=logo,width=550px][orientation=portrait]
