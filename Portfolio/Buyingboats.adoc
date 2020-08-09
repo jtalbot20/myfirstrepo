@@ -32,7 +32,7 @@ App,Location,Envirement,URL,Status,Boat,Length,Year
 |======================
 
 ## GitHub Branch Strategy
-image::branchfile.JPG[alt=logo,width=250px][orientation=portrait]
+image::branch.JPG[alt=logo,width=250px][orientation=portrait]
 
 ## Implementation Strategy
 image::Implementation.JPG[alt=logo,width=250px][orientation=portrait]
