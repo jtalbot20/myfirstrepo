@@ -9,11 +9,14 @@
 :BOATTRADER_YEAR: Year of boat
 :imagesdir: images
 
-+
-:image:: 
+
+image::boattrader.JPG[alt=logo,width=550px][orientation=portrait]
 
 ## Buying a boat off Boat Trader
 Sell Your Boat, Ready to sell your boat? Listing on Boat Trader gives you maximum exposure with minimal hassle. Also find boats for sale
+- Boattrader makes it so easy for looking for boats all over the world
+- Easy steps as just plugging in information such as, Lenght, Year, Type & Price
+- After that Boattrader just brings up differnt searches in your location and range and start shopping
 
 ## There is an app and its available on IOS & Android
 -The current version was developed on IOS & Android framework
@@ -28,5 +31,16 @@ Sell Your Boat, Ready to sell your boat? Listing on Boat Trader gives you maximu
 
 |======================
 App,Location,Envirement,URL,Status,Boat,Length,Year
+
 '{BOATTRADER_APP}','{BOATTRADER_loc}','{BOATTRADER_ENV}','{BOATTRADER_URL}','{BOATTRADER_BRAND}','{BOATTRADER_SIZE}','{BOATTRADER_YEAR}'
 |======================
+
+## GitHub Branch Strategy
+- This is the route that needs taken to upload to GitHub
+
+image::Branch.JPG[alt=logo,width=350px][orientation=portrait]
+
+## Implementation Strategy
+-This is the route that needs taken from FileZilla to the Internet 
+
+image::Implementation.JPG[alt=logo,width=550px][orientation=portrait]
